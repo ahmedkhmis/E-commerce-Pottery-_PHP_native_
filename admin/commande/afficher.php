@@ -49,7 +49,7 @@ if(!isset($_SESSION['Adminnom'])){header("location:../connexion.php");}
 
 
     <div class="container-fluid">
-      <div class="row">
+      <!-- <div class="row"> -->
 
 <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
@@ -151,7 +151,7 @@ if(!isset($_SESSION['Adminnom'])){header("location:../connexion.php");}
            
               print '<tr><th scope="row">'.$p['id'].'</th>
               <td>'.$p['visiteur'].'</td>
-              <td>'.$user['email'].'</td>
+             
               <td>'.$p['total'].' DT</td>
               <td>'.$p['date_creation'].'</td>
               <td>'.$p['etat'].'</td>

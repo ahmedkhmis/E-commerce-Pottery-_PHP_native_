@@ -139,7 +139,7 @@ if(!isset($_SESSION['Adminnom'])){header("location:../connexion.php");}
               $marque='';
             
               $prom=getElementById('promo',$p['promo']);
-
+              
               if($prom['date_fin']>date("Y-m-d")){
                 $cn=connect_BD();
 
